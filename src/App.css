@@ -1,0 +1,32 @@
+/* App.css */
+
+
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9fafb;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+input:focus, button:focus {
+  outline: 2px solid #3b82f6; /* Tailwind blue-500 */
+  outline-offset: 2px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #d1d5db; /* gray-300 */
+  border-radius: 4px;
+}
